@@ -41,11 +41,11 @@ namespace NullableReferenceTypes
 
 		static void ExampleFirst()
 		{
-			// var person = new PersonFirst();
-			// person.name = null;
-			// person.nickname = null;
-			// var nameLen = person.name.Length;
-			// var nicknameLen = person.nickname.Length;
+			var person = new PersonFirst();
+			person.name = null;
+			person.nickname = null;
+			var nameLen = person.name.Length;
+			var nicknameLen = person.nickname.Length;
 
 			/*
 			 * Скомпилировав этот код, мы получим два предупреждения (жаль, что по умолчанию
@@ -86,7 +86,7 @@ namespace NullableReferenceTypes
 		{
 			var person = GetPersonThird();
 			AssertNotNullThird(person);
-			// Console.WriteLine(person.name);
+			Console.WriteLine(person.name);
 
 			/*
 			 * В строчке вывода мы однозначно не можем получить null из-за того, что строчкой выше.
@@ -156,11 +156,11 @@ namespace NullableReferenceTypes
 
 	#region For ExampleFirst
 
-	// class PersonFirst
-	// {
-	// 	public string name;
-	// 	public string? nickname;
-	// }
+	class PersonFirst
+	{
+		public string name;
+		public string? nickname;
+	}
 
 	#endregion
 
