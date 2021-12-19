@@ -4,6 +4,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp-8", "CSharp-8", "{8A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMembers", "DefaultInterfaceMembers\DefaultInterfaceMembers.csproj", "{CA670813-ABB0-4643-A6B9-FB7F56FE25CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp-9", "CSharp-9", "{EFA53D62-145A-4416-80A3-F4623748E0C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp-10", "CSharp-10", "{4ADE2234-4E86-4A4F-84ED-FB08CF142D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableReferenceTypes", "NullableReferenceTypes\NullableReferenceTypes.csproj", "{DE05157C-671D-4D0E-A4EA-20A692D29CCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +20,13 @@ Global
 		{CA670813-ABB0-4643-A6B9-FB7F56FE25CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA670813-ABB0-4643-A6B9-FB7F56FE25CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA670813-ABB0-4643-A6B9-FB7F56FE25CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE05157C-671D-4D0E-A4EA-20A692D29CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE05157C-671D-4D0E-A4EA-20A692D29CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE05157C-671D-4D0E-A4EA-20A692D29CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE05157C-671D-4D0E-A4EA-20A692D29CCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CA670813-ABB0-4643-A6B9-FB7F56FE25CC} = {8A48DA04-5D53-4B5A-9961-1EFBDAAB827D}
+		{DE05157C-671D-4D0E-A4EA-20A692D29CCC} = {8A48DA04-5D53-4B5A-9961-1EFBDAAB827D}
 	EndGlobalSection
 EndGlobal
